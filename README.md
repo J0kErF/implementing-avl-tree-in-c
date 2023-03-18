@@ -1,6 +1,10 @@
 # implementing-avl-tree-in-c
 this code is about implementing the concept of avl tree using c
 
+The code is fulled with comments very easy to understand
+
+here are some of the functions that used to make it work:
+
 getters and setters:
 
 int getHeight(AVLNodePtr root);
@@ -9,6 +13,7 @@ int getSum(AVLNodePtr root);
 void updateHeight(AVLNodePtr node);
 void updateSize(AVLNodePtr node);
 void updateSum(AVLNodePtr node);
+
 
 replaces the root with the minimal node -- helps with the deletion:
  
@@ -33,3 +38,9 @@ guess what these two used for 😉:
 
 int route_R_sum(AVLNodePtr root, int x);
 int route_L_sum(AVLNodePtr root, int x);
+
+
+
+//mohammad yosef
+//mohmd.sy2002@gmail.com
+//https://www.linkedin.com/in/mohammad-yosef/
